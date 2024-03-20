@@ -12,7 +12,15 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "register-banner": "url('/registerbanner.svg')",
+        "logo": "url('/logo-transparent-svg.svg')",
       },
+      colors: {
+        "light-gray": "#E2E2E2",
+        "deep-teal": "#19747E",
+        "soft-mint-green": "#D1E8E2",
+        "light-sky-blue": "#A9D6E5",
+      }
     },
   },
   plugins: [],
