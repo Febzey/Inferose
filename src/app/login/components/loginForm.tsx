@@ -104,12 +104,12 @@ export default function LoginForm() {
 
             <div className="space-y-1 flex flex-col w-full">
                 <label htmlFor="email" className="block text-md font-medium text-gray-700">Email</label>
-                <input id="email" name="email" type="email" autoComplete="email" required className="block w-full px-3 py-3.5 border border-gray-300 rounded-md shadow-sm focus:outline-none  text-zinc-800 focus:ring-2 focus:ring-indigo-500 focus:border-transparent" onChange={(e) => onEmailChange(e)} />
+                <input id="email" name="email" type="email" autoComplete="email" required className="block w-full bg-gray-200 px-3 py-3.5 rounded-md shadow-sm focus:outline-none   focus:ring-2 focus:ring-violet-300 focus:border-transparent" onChange={(e) => onEmailChange(e)} />
             </div>
 
             <div className="space-y-1 flex flex-col w-full">
                 <label htmlFor="password" className="block text-md font-medium text-gray-700">Password</label>
-                <input id="password" name="password" type="password" autoComplete="current-password" required className="block w-full px-3 py-3.5 border border-gray-300 rounded-md text-zinc-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" onChange={(e) => onPasswordChange(e)} />
+                <input id="password" name="password" type="password" autoComplete="current-password" required className="block w-full bg-gray-200 px-3 py-3.5 rounded-md shadow-sm focus:outline-none   focus:ring-2 focus:ring-violet-300 focus:border-transparent" onChange={(e) => onPasswordChange(e)} />
             </div>
 
             <div className="flex mr-auto">
@@ -118,7 +118,7 @@ export default function LoginForm() {
             </div>
 
             <div className="flex w-full">
-                <button type="submit" className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-deep-teal hover:bg-deep-teal/50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                <button type="submit" className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-violet-500 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     {loading ? <FaSpinner className="animate-spin text-lg" /> : "Go to Dashboard"}
                 </button>
             </div>
